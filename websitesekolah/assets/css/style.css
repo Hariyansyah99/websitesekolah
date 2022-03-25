@@ -1,0 +1,363 @@
+
+body {
+    font-family: "Monstserrat",'Sagoe UI',Tahoma,Ganeva,Verdana,sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    margin: auto;
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.top-contact, .sosmed {
+    list-style: none;
+    padding: 0;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+    color: #fff;
+}
+
+/*  Css untuk header */
+header {
+    padding: 25px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 35px;
+    color: #15477A;
+    text-transform: uppercase;
+
+}
+
+.brand .brand-name h3 {
+    font-size: 14px;
+    font-family: Raleway,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+
+}
+
+.pembungkus-searchbox { 
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbox {
+    width: 100%;
+
+}
+
+.btn.btn-utama {
+    background-color: #15477A;
+    color: #F2C808;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* navbar */
+
+nav {
+    height: 60px;
+}
+.navbar {
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    border-bottom: 5px solid #F2C808;
+}
+.bg-biru {
+    background-color: #15477A!important;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #F2C808;
+}
+
+.active {
+    background-color: #F2C808;
+    color: #15477A;
+}
+li.nav-item.active {
+    color: #15477A;
+}
+
+.nav-item {
+    padding: 10px 10px;
+}
+
+#sambutan {
+    margin: 60px auto ;
+}
+
+#sambutan h2 {
+    color: #15477A;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#sambutan h2 {
+    color: #15477A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 14px;
+    font-family: Releway,sans-serif;
+    font-size: 500;
+    line-height: 28px;
+}
+
+#prestasi {
+    min-height: 250px;
+   
+}
+
+section {
+    margin: 50px 0;
+}
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 25px #ddd;
+}
+.section-item-thumbnail {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom:  -20px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.section-item-title {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.section-item-title h3 {
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+}
+.section-item-title span i {
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type {
+    margin-right: 15px;
+}
+
+.tombol-selengkapnya {
+    text-align: center;
+}
+.btn.btn-more {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#15477A;
+    text-align: center;
+    display: inline-block;
+    border: 4px solid #15477A;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+#tenaga-pendidik {
+    background-color: #fff;
+    padding: 30px 0;
+}
+ 
+.title {
+    text-align: center;
+    padding: 25px 0;
+}
+.title p {
+    font-size: 18px;
+
+}
+
+.card-body {
+    box-shadow: 0 0 30px #ddd;
+}
+.card {
+    margin: 20px 10px;
+}
+
+.card-body a {
+    color: #15477A;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.card-body a:hover {
+    color: #F2C808;
+}
+
+footer {
+    color: #fff;
+    background-color: #15477A; 
+    padding: 80px 0;
+    border-top:10px solid #F2C808;
+}
+
+.footer .brand {
+    display: flex;
+}
+
+footer .brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+footer .tentang {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #888888;
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+footer .sosmed li a {
+    color: #fff;
+    border:1px solid #888888;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.footer-col .footer-kontak {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav a {
+    color: #ddd;
+}
+
+.footer-col .footer-nav a:hover {
+    color: #F2C808 ;
+}
